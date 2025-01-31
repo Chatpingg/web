@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>+ CHAT CHAPIN +</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: black;
+        font-family: Arial, sans-serif;
+    }
+    .title-container {
+        text-align: center;
+        width: 100%;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+    form {
+        text-align: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 90%;
+        margin: 20px;
+    }
+    input[type="button"] {
+        background: #ff7e5f;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    input[type="button"]:hover {
+        background: #feb47b;
+    }
+    label {
+        display: block;
+        margin: 10px 0;
+        font-family: 'arial', italic;
+    }
+    img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 600px) {
+        form {
+            padding: 10px;
+        }
+        input[type="button"] {
+            font-size: 14px;
+            padding: 8px 16px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="title-container">
+        <img src="index_archivos/chating.jpg" alt="Imagen de Chat" />
+        <h1>CHAT CHAPIN</h1>
+    </div>
+    <form id="form1" name="form1" method="post">
+        <label>1. Chat Chapines y Chapinas
+            <input type="button" value="ENTRAR" onClick="window.location.href='chapiness.html';" />
+        </label>
+        <p>
+            <label>2. Chat Hablar de Sexo Chapines y Chapinas
+                <input type="button" value="ENTRAR" onClick="window.location.href='chapinessexo.html';" />
+            </label>
+        </p>
+		
+        </form>
+</body>
+</html>
